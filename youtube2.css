@@ -1,0 +1,30 @@
+#thumbnail-1 {
+    border-radius: 10px;
+    width: 300px;
+    aspect-ratio: 16/9;
+}
+#logo-1 {
+    border: radius 10px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    /* background-color: brown; */
+}
+#div-1 {
+    /* background-color: brown; */
+}
+#div-2 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#view-div {
+    margin-bottom: 500px;
+  
+}
+#name-1 {
+    font-size: x-large;
+}
+
+

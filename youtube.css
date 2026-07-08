@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.font-roboto {
+  font-family: "Roboto";
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#main-div {
+  display: flex;
+  gap: 10px;
+}
+#logo-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#name-div {
+  display: flex;
+  gap: 5px;
+}
+#logo-1 {
+  width: 40px;
+  height: 40px;
+}
+#thumbnail-1 {
+  border-radius: 10px;
+  width: 300px;
+  aspect-ratio: 16/9;
+}
+#name-1 {
+  font-size: 20px;
+  padding-right: 50px;
+  width: 300px;
+}
+#content-div {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#vertical-icon {
+  font-size: larger;
+}
+.text-2-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
